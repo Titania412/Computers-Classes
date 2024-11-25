@@ -1,0 +1,53 @@
+public class Computer {
+	private String manufacturer;
+	private String diskSize;
+	private String manufacturingDate;
+	private int numberOfCore;
+	
+	public Computer() {
+		
+	}
+	
+	public Computer(String manufacturer, String diskSize, String manufacturingDate, int numberOfCore) {
+		this.manufacturer = manufacturer;
+		this.diskSize = diskSize;
+		this.manufacturingDate = manufacturingDate;
+		this.numberOfCore = numberOfCore;
+	}
+	
+	public String getManufacturer() {
+		return manufacturer;
+	}
+	
+	public void setManufacturer() {
+		this.manufacturer = manufacturer;
+	}
+	
+	public String getDiskSize() {
+		return diskSize;
+	}
+	
+	public void setDiskSize() {
+		this.diskSize = diskSize;
+	}
+	
+	public String getManufacturingDate(){
+		return manufacturingDate;
+	}
+	
+	public void setManufacturingDate() {
+		this.manufacturingDate = manufacturingDate;
+	}
+	
+	public int getnumberOfCore() {
+		return numberOfCore;
+	}
+	
+	public void setNumberOfCore() {
+		this.numberOfCore = numberOfCore;
+	}
+	
+	public String toString() {
+		return "Manufacturer: " + manufacturer + "\nDisk Size: " + diskSize + "\nManufacturing Date: " + manufacturingDate + "\nNumber of Cores: " + numberOfCore + "\n";
+	}
+}
