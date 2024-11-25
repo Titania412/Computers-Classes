@@ -1,0 +1,35 @@
+public class Desktop extends Computer {
+	private double width;
+	private double height;
+	
+	public Desktop() {
+		
+	}
+	
+	public Desktop(String manufacturer, String diskSize, String manufacturingDate, int numberOfCore, double width, double height) {
+		super(manufacturer, diskSize, manufacturingDate, numberOfCore);
+		this.width = width;
+		this.height = height;
+	}
+	
+	public double getWidth() {
+		return width;
+	}
+	
+	public void setWidth() {
+		this.width = width;
+	}
+	
+	public double getHeight() {
+		return height;
+	}
+	
+	public void setHeight() {
+		this.height = height;
+	}
+	
+	public String toString() {
+		return super.toString() + "Width: " + width + " in \nHeight: " + height + " in\n";
+	}
+	
+}
