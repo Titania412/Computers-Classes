@@ -1,0 +1,24 @@
+public class Laptop extends Computer {
+	private double weight;
+	
+	public Laptop() {
+		
+	}
+	
+	public Laptop(String manufacturer, String diskSize, String manufacturingDate, int numberOfCore, double weight) {
+		super(manufacturer, diskSize, manufacturingDate, numberOfCore);
+		this.weight = weight;
+	}
+	
+	public double getWeight() {
+		return weight;
+	}
+	
+	public void setWeight() {
+		this.weight = weight;
+	}
+	
+	public String toString() {
+		return super.toString() + "Weight: " + weight + " lb\n";
+	}
+}
