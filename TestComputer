@@ -1,0 +1,28 @@
+public class TestComputer {
+	public static void main(String[] arg) {
+		
+		// Computer class 
+		Computer comp1 = new Computer("Dell", "1189160321024 bytes", "April 1, 2020", 2);
+		Computer comp2 = new Computer("Apple Inc.", "269283712040 bytes", "March 31, 2020", 4);
+		Computer comp3 = new Computer("MSI", "549,755,813,888 bytes", "March 26, 2021", 8);
+
+		System.out.println(comp1);
+		System.out.println(comp2);
+		System.out.println(comp3);
+
+		// Laptop class
+		Laptop lap1 = new Laptop("MSI", "549,755,813,888 bytes", "March 26, 2021", 8, 5.29);
+		Laptop lap2 = new Laptop("Apple Inc.", "269283712040 bytes", "March 31, 2020", 4, 3.3);
+
+		System.out.println(lap1);
+		System.out.println(lap2);
+
+		// Desktop class
+		Desktop desk1 = new Desktop("MSI", "549,755,813,888 bytes", "March 26, 2021", 8, 16, 10);
+		Desktop desk2 = new Desktop("Dell", "1189160321024 bytes", "April 1, 2020", 2, 15, 10);
+
+		System.out.println(desk1);
+		System.out.println(desk2);
+
+	}
+}
